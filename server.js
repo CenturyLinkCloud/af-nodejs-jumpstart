@@ -8,7 +8,7 @@ app.get('/', function (req, res) {
 // res.send('Hello World!');
 });
 
-var server = app.listen(process.env.VCAP_APP_PORT || 3000, function () {
+var server = app.listen(process.env.PORT || 3000, function () {
 
   var host = server.address().address;
   var port = server.address().port;
