@@ -1,4 +1,3 @@
-const trace = require('@risingstack/trace')
 var express = require('express');
 var app = express();
 
